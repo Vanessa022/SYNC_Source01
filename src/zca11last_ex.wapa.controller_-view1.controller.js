@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/Filter"],function(e,t){"use strict";return e.extend("s.zca11lastex.controller.View1",{onInit:function(){},onClick:function(){let e=this.getView().byId("idCb").getSelectedKey();let i=this.getView()+
+.byId("idSalesTab");let n=new t("Syear","EQ",e);i.getBinding("items").filter(n)},onPress:function(e){let t=e.getSource().getBindingContext().getPath();let i=this.getView().byId("idCli");i.bindElement(t)}})});                                               

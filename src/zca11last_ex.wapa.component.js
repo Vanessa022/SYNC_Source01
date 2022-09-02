@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","s/zca11lastex/model/models"],function(e,t,i){"use strict";return e.extend("s.zca11lastex.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.getRoute+
+r().initialize();this.setModel(i.createDeviceModel(),"device")}})});                                                                                                                                                                                           

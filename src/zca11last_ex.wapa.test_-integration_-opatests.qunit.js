@@ -1,0 +1,1 @@
+sap.ui.require(["s/zca11lastex/test/integration/AllJourneys"],function(){QUnit.config.autostart=false;QUnit.start()});                                                                                                                                         
